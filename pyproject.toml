@@ -2,10 +2,11 @@
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
+
 [project]
-name = "tree-sitter-fortran"
+name = "tree-sitter-fortran-byornski"   # Has to match that on pypi
 description = "Fortran grammar for tree-sitter"
-version = "0.0.1"
+version = "0.0.6"
 keywords = ["incremental", "parsing", "tree-sitter", "fortran"]
 classifiers = [
   "Intended Audience :: Developers",
